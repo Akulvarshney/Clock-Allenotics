@@ -1,0 +1,186 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	background-color: black;
+}
+
+@media screen and (min-width: 767px) {
+	.logo {
+		background-color: black;
+		text-align: center;
+	}
+
+	.logo img {
+		margin-top: 20px;
+		height: 110px;
+	}
+
+	.home {
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.home a {
+		text-decoration: none;
+		list-style: none;
+		padding: 20px;
+	}
+
+	.home h3 {
+		font-size: 20px;
+		color: white;
+		opacity: 0.5;
+	}
+
+	.home h3:hover {
+		opacity: 1;
+		color: blueviolet;
+		transition: 500ms;
+	}
+
+	.jumbotron {
+		background-color: black;
+		margin: 0 20%;
+		color: white;
+	}
+
+	.btn-primary {
+		margin-top: 30px;
+	}
+
+	.copy {
+		padding: 30px 13%;
+		color: gray;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo {
+		background-color: black;
+		text-align: center;
+	}
+
+	.logo img {
+		margin-top: 20px;
+		height: 80px;
+	}
+
+	.home {
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.home a {
+		text-decoration: none;
+		list-style: none;
+		padding: 20px;
+	}
+
+	.home h3 {
+		font-size: 15px;
+		color: white;
+		opacity: 0.5;
+	}
+
+	.home h3:hover {
+		opacity: 1;
+		color: blueviolet;
+		transition: 500ms;
+	}
+
+	.jumbotron {
+		background-color: black;
+		margin: 0 20%;
+		color: white;
+	}
+
+	.display-1 {
+		font-size: 40px;
+	}
+
+	.btn-primary {
+		margin-top: 30px;
+	}
+
+	.copy {
+		padding: 30px 13%;
+		color: gray;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.contact {
+	color: white;
+	background-color: black;
+}
+
+.contact h1 {
+	font-family: 'Girassol', cursive;
+	font-size: 40px;
+	color: white;
+}
+
+.contact p {
+	color: white;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+}
+
+#contact {
+	background: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#contact h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+#contact .follow {
+	background-color: black;
+	color: white;
+	outline: 0;
+	padding-top: 30px;
+	font-size: 15px;
+	font-family: 'Caveat', cursive;
+}
+
+.contact-form {
+	padding: 15px;
+}
+
+.contact-form label {
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.form-group {
+	background-color: black;
+}
+
+.contact-form input {
+	background-color: #efefef;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: black;
+}
+
+.contact-form textarea {
+	background-color: #efefef;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: black;
+}
+
+.follow {
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
